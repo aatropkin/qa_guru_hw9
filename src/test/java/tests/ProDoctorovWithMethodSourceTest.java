@@ -19,11 +19,9 @@ public class ProDoctorovWithMethodSourceTest extends TestBase {
     static Stream<Arguments> selenideSite(){
         return Stream.of(
         Arguments.of(
-                List.of("О компании", "О проекте", "Редакция и юрлицо", "О нас говорят", "Выступления", "Битва за отзывы","Вакансии", "Соцсети", "Контакты")
+                List.of("О компании", "О проекте", "Редакция и юрлицо", "О нас говорят",
+                        "Выступления", "Битва за отзывы","Вакансии", "Соцсети", "Контакты")
         )
-//        Arguments.of(
-//                List.of("")
-//        )
         );
     }
 
